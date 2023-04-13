@@ -1,36 +1,37 @@
 body {
+  font-family: arial;
   margin: 50px;
 }
 
 h1 {
   text-align: center;
-  font-family: Arial;
-}
-
-h2,
-span {
-  font-family: arial;
-  background-color: #161616;
-  border-radius: 4px;
-  color: #ffff;
-}
-
-p {
-  font-size: 20px;
 }
 
 h2 {
+  margin: 0px;
+}
+
+.item {
+  background: #111;
+  color: #fff;
   padding: 30px;
   margin: 20px;
+  border-radius: 4px;
 }
 
 span {
   color: #febe01;
 }
 
-button {
-  padding: 7px;
-  font-size: 15px;
-  background-color: #ecb037;
-  color: #000000;
+p {
+  color: #b2b2b2;
+}
+
+a {
+  display: inline-block;
+  background: #febe01;
+  color: #332200;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
 }

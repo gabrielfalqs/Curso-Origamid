@@ -1,0 +1,29 @@
+body {
+  font-family: arial;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  margin: 0%;
+  padding: 60px;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+  place-content: center;
+}
+
+h2 {
+  background: #ffff;
+  border: 1px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}

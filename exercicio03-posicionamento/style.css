@@ -13,10 +13,6 @@ img {
   display: block;
 }
 
-a {
-  text-decoration: none;
-}
-
 p,
 h1,
 h2,
@@ -35,4 +31,6 @@ p {
 
 .links a {
   background: #ffff;
+  color: black;
+  text-decoration: none;
 }
